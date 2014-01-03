@@ -16,3 +16,5 @@ sudo make -j2
 sudo make install
 sudo sh -c 'echo "/usr/local/lib" > /etc/ld.so.conf.d/opencv.conf'
 sudo ldconfig
+sudo apt-get -y install python-scipy python-numpy python-pygame python-setuptools python-pip
+sudo pip install https://github.com/sightmachine/SimpleCV/zipball/develop
